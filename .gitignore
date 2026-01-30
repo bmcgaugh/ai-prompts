@@ -1,0 +1,19 @@
+# General
+.env
+.env.*
+.vscode/
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+
+# Local experiment caches and large outputs
+/experiments/cache/
+/prompts/evaluations/
+/assets/*.ckpt
+/assets/*.pt
+/assets/*.bin
+
+# OS / editor
+*.swp
+.idea/
