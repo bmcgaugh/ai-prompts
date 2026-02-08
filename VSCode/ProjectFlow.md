@@ -1,0 +1,30 @@
+
+# AI Development and Project Development
+- Refer to VSCode AI cheatsheet and https://code.visualstudio.com/docs/copilot/customization/overview and https://code.visualstudio.com/docs/copilot/guides/context-engineering-guide
+- Highly based on my IPS Roles and Responsibilities description
+- Project/sub-project basics and top-level file structure specified in .github/copilot-instructions.md and .instructions.md files: see https://code.visualstudio.com/docs/copilot/customization/custom-instructions
+    - Coding and formatting standards
+    - Licensing rules
+    - Test generation models
+    - Scaffolding and directory structure
+    - Documentation generation
+- Agents - define different LLMs per role
+    - SystemArchitect
+    - EmbeddedCArchitect
+    - EmbeddedCReviewer
+    - EmbeddedCCoder
+    - PythonArchitect
+    - PythonReviewer
+    - PythonCoder
+- Skills
+    - EmbeddedCGenerateCode
+    - EmbeddedCUpdateCode
+    - EmbeddedCUnitTestCode
+    - EmbeddedCCommitChanges
+    - EmbeddedCGenerateDocumentation
+    - EmbeddedCCreatePR
+    - EmbeddedCModuleReview
+    - EmbeddedCPRReview
+    - EmbeddedCGenerateRequirements
+    - EmbeddedCRefineRequirements
+    - EmbeddedCGenerateTestCases
